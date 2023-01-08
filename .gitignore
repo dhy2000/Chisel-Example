@@ -1,0 +1,36 @@
+# Generated directories
+test_run_dir/*
+output_dir/*
+
+# Project and Build directorires
+target/
+.idea/
+out/
+build/
+.bsp
+
+# Build artifacts
+*.jar
+*.class
+*.war
+*.ear
+
+# VCS Simulation
+*.log
+*.key
+
+# Generated sources
+*.v
+*.sv
+*.fir
+*.c
+*.cpp
+*.h
+*.hpp
+*.cxx
+
+# Archives
+*.zip
+*.rar
+*.7z
+*.tar.*
