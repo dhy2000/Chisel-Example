@@ -22,7 +22,7 @@ class GCDTest extends AnyFreeSpec with ChiselScalatestTester {
 
           val expected = BigInt(x).gcd(BigInt(y))
           dut.outputGCD.expect(expected)
-          println(s"$i: gcd($x, $y) = 1")
+          println(s"$i: gcd($x, $y) = $expected")
         }
       }
   }
